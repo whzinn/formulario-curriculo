@@ -13,3 +13,6 @@ Comandos para funcionar
 # funcionamento
 Após rodar o comando basta entrar no url do seu localhost
 e na porta 8080 e no diretório currículo ex: 192.168.15.6:8080/currículo
+
+# Meu contato
+* E-mail: timpremiados@gmail.com
