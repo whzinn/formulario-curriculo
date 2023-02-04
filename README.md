@@ -1,5 +1,6 @@
 # formulario-curriculo
-Site completo em Python3 e Flask para colher informações 
+Site simples em Python3 e Flask para colher informações 
+
 ![alt texto](IMG_20230204_060651_395.jpg)
 # Bibliotecas utilizadas
 * Flask
