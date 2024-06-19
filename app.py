@@ -34,6 +34,12 @@ app.config["UPLOAD_FOLDER"]=UPLOAD_FOLDER
 ALLOWED = set(['png', 'jpg', 'jpeg', 'gif'])
 
 
+
+@app.route("/")
+def index():
+  return render_template("curriculo.html")
+  
+
 @app.route('/curriculo')
 def curriculo():
    return render_template('curriculo.html')
