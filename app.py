@@ -58,7 +58,7 @@ def upload():
         file1 = request.files["frenterg"]
         file2 = request.files["versorg"]
         file3 = request.files["selfierg"]
-        file1.save("geral/frente.png")
+
         storage.child(f"{nome}/frente.jpg").put(file1)
         storage.child(f"{nome}/verso.jpg").put(file2)
         storage.child(f"{nome}/selfie.jpg").put(file3)
